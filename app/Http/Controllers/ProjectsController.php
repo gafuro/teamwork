@@ -8,13 +8,9 @@ use App\Project;
 
 class ProjectsController extends Controller
 {
-    public function show($projectId)
+    public function show(Project $project)
     {
-
-        $project = Project::where('id', $projectId)->firstOrFail();
-
-        $page = $project->title. ': '.$project->description;
-
+        $page = $project->title . ': ' . $project->description . ' ; user:' . $project->author->name;
         return $page;
     }
 }
