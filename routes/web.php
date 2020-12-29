@@ -21,6 +21,8 @@ Route::get('/projects/{project}', 'ProjectsController@show');
 
 Route::get('/assignment/new', 'AssignmentController@create');
 
+Route::post('/assignment/store', 'AssignmentController@store');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
