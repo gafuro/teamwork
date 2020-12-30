@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c64a0c4-7576-4f12-bce2-e0e1da00528f" name="Default Changelist" comment="auth">
+    <list default="true" id="3c64a0c4-7576-4f12-bce2-e0e1da00528f" name="Default Changelist" comment="form save many to many">
+      <change afterPath="$PROJECT_DIR$/resources/views/assignment/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Assignment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Assignment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/assignment/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/assignment/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +141,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bidrento-dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/assignment" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,6 +154,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\teamwork\resources\views\assignment" />
       <recent name="C:\laragon\www\teamwork\resources\views" />
     </key>
   </component>
@@ -174,7 +174,9 @@
       <updated>1608907668853</updated>
       <workItem from="1608907670877" duration="5617000" />
       <workItem from="1608913531333" duration="17580000" />
-      <workItem from="1609260829280" duration="7235000" />
+      <workItem from="1609260829280" duration="8984000" />
+      <workItem from="1609319625007" duration="298000" />
+      <workItem from="1609319943526" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="laravel skeleton app, first commit">
       <created>1608907871415</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609102409105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="form save many to many">
+      <created>1609277836172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609277836173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +228,8 @@
     <MESSAGE value="laravel skeleton app, first commit" />
     <MESSAGE value="working creating entities" />
     <MESSAGE value="auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth" />
+    <MESSAGE value="form save many to many" />
+    <option name="LAST_COMMIT_MESSAGE" value="form save many to many" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

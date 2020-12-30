@@ -9,6 +9,13 @@ use App\Tag;
 class AssignmentController extends Controller
 {
 
+    public function index()
+    {
+        return view(
+            'assignment.index', ['assignments' => Assignment::all()]
+        );
+    }
+
     public function create()
     {
         return view(
@@ -24,11 +31,12 @@ class AssignmentController extends Controller
         return redirect(route('home'));
     }
 
-    private function validateAssignment()
+    private function validateAssignment() : array
     {
         return \request()->validate([
             'body' => 'required',
-            'due_dt' => 'required'
+            'due_dt' => 'required',
+            'tags' => 'exists:tags,id'
         ]);
     }
 }

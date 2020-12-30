@@ -19,8 +19,8 @@ Route::get('/', function () {
 
 Route::get('/projects/{project}', 'ProjectsController@show');
 
-Route::get('/assignment/new', 'AssignmentController@create');
-
+Route::get('/assignment/', 'AssignmentController@index')->name('assignment.index');
+Route::get('/assignment/new', 'AssignmentController@create')->name('assignment.create');
 Route::post('/assignment/store', 'AssignmentController@store');
 
 Auth::routes();
